@@ -22,4 +22,4 @@ You will find explanations for all excercises within the .html and .css files th
 
 ## Questions
 
-I am not here to answer any questions, check out Google and come to the Open Labs :)
+I am not here to answer any questions, check out Google and come to the Open Labs or ask in Discord/Facebook :)
