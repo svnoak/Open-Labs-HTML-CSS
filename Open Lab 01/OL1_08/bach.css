@@ -2,6 +2,18 @@ body {
     background: yellow;
 }
 
+/*
+För att rahmen ska bli synlig, så måste den definieras som "solid", annars så kommer den inte synas öht.
+Ett annat sätt att definiera border är att använda:
+border-style: solid;
+border-color: green;
+border-width: 40px;
+
+Att bara använda border: är ett enklare och snabbare sätt att kombinera alla properties.
+*/
+
+
+
 img {
     border: solid green 40px;
 }
