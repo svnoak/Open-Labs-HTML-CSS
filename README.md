@@ -1,6 +1,11 @@
 # Open-Labs
 All open Labs excercises from MPP studies at Malmö University with explanations
 
+## Language
+
+Alla förklaringar är såklart på svenska, men standardspråket i webben är engelska
+
+
 ## Structure
 Open Labs are structured in an ordered list.
 They they follow the tree structure of:
@@ -14,7 +19,6 @@ Open Lab 01 <-- This is the main folder<br>
 ## Content
 This repo does not contain the original files, only the finished excercises<br>
 You will find explanations for all excercises within the .html and .css files themselves as comments
-
 
 ## Questions
 
