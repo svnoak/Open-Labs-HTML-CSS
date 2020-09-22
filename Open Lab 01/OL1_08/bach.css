@@ -1,0 +1,22 @@
+body {
+    background: yellow;
+}
+
+img {
+    border: solid green 40px;
+}
+
+h1 {
+    background-color: skyblue;
+    color: blue;
+}
+
+p {
+    background-color: aliceblue;
+    color: red;
+}
+
+a {
+    background-color: black;
+    color: pink;
+}

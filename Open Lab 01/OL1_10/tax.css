@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background: lightgray;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 64px;
+    color: blue;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32;
+    color: tomato;
+}
+
+p {
+    font-family: Georgia;
+    font-size: 18px;
+}
