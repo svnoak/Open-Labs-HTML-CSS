@@ -1,12 +1,38 @@
+/* 
+
+När vi ska förändra attributen för taggar så skriver vi bara som nedan.
+Se att det är en skillnad mellan background-color och color.
+
+Background-color används för bakgrund och color alltid för textfärg (font-color finns EJ)
+*/
+
 body {
     background-color: black;
     color: white;
 }
 
+/* 
+a taggen skulle vara vit färg, därav color: white;
+
+Linjen som finns kvar under "Youtube" kallas för text-decoration, denna kan vi få bort genom att skriva text-decoration: none;
+Mer info för text-decoration finner du här: 
+https://www.w3schools.com/css/css_text_decoration.asp
+https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+*/
+
 a {
     color: white;
     text-decoration: none;
 }
+
+/*
+<li> kan vi förändra med list-style.
+Mer information om list-style hittar du här: https://www.w3schools.com/css/css_list.asp
+
+OBS: Det är svårt att byta färg på olika delar i samma element (tex punkten i <li> om färgen ska vara vit, men punkten vara svart)
+Därför använder vi list-style istället.
+*/
+
 
 li {
     list-style: none;
