@@ -14,3 +14,8 @@ Open Lab 01 <-- This is the main folder<br>
 ## Content
 This repo does not contain the original files, only the finished excercises<br>
 You will find explanations for all excercises within the .html and .css files themselves as comments
+
+
+## Questions
+
+I am not here to answer any questions, check out Google and come to the Open Labs :)
