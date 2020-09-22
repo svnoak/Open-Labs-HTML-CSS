@@ -1,11 +1,25 @@
-/*  
-Viktigt med alla kolon : , semicolon ; och curlybraces/brackets/måsvingar { }
-*/
+/*
+text-align är ett sätt att justera var element ska sitta fysiskt på skärmen (eller inom HTML även kallat för DOM).
+De kan sitta centrerat, vänster eller höger.
 
+Mer info här: 
+*/
 
 body {
     text-align: center;
 }
+
+/* 
+    font-family innebär att man lägger fast vilket typsnitt datorn ska använda.
+    Här används typsnitten hierarkist, dvs om Arial inte finns, kommer Helvetica användas, om Helvetica inte finns kommer enhetens egna sans-serif typsnitt användas.
+    Ibland kan man se det när en sida laddar att typsnittet blinkar till eller ändras precis innan det laddat klart, det beror på denna hierarkien och hur sidan laddar in typsnitt.
+
+    Mer info finns här: https://www.w3schools.com/cssref/pr_font_font-family.asp
+
+    font-size sätter storleken av texten.
+
+    Mer information finns här: https://www.w3schools.com/css/css_font_size.asp
+*/
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
