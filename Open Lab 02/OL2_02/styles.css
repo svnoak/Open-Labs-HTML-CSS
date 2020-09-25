@@ -1,0 +1,36 @@
+/* Här är de ID:n och Class:er ni ska utgå från och lägga till i ert HTML-dokument. */
+#hard-to-read {
+    color: blue;
+    background-color: yellow;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.cozy {
+    font-weight: bold;
+    background-color: wheat;
+    color: darkslategray;
+}
+
+.quote {
+    font-style: italic;
+    background-color: lightgray;
+    color: tomato;
+}
+
+#big-letters {
+    color: maroon;
+    text-transform: uppercase;
+}
+
+.watch-out {
+    color: white;
+    background-color: tomato;
+    font-size: 32px;
+}
+
+#roses-are-red {
+    font-size: 22px;
+    background-color: darkslategray;
+    color: deeppink;
+}

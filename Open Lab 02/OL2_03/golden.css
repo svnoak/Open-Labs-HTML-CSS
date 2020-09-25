@@ -1,0 +1,34 @@
+body {
+    background-color: ghostwhite;
+}
+
+#step-1 {
+    color: gainsboro;
+}
+
+.step-2 {
+    color: lightblue;
+}
+
+.step-3 {
+    color: indigo;
+}
+
+#setp-4 {
+    font-size: 18px;
+}
+
+.step-5 {
+    font-size: 20px;
+}
+
+#step-6 {
+    font-size: 22px;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gold;
+    background-color: brown;
+}

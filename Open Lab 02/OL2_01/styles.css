@@ -1,0 +1,30 @@
+/* Detta styr bak- och förgrundsfärg för vår hemsida. */
+body {
+    background-color: beige;
+    color: rgb(31, 45, 61); /* Detta kommer vi prata mer om i framtida föreläsningar. */
+    line-height: 1.4;
+}
+
+#headline {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.content-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}

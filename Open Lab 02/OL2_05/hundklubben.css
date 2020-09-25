@@ -1,0 +1,19 @@
+body {
+    min-width: 200px;
+}
+
+#sign {
+    background-color: steelblue;
+    margin: 0 auto;
+	border: 20px solid deepskyblue;
+	max-width: 500px;
+	text-align: center;
+	height: 100px;
+	overflow: hidden;
+}
+
+#heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}

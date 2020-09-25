@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+div {
+    height: 25vh;
+    width: 25vw;
+}
+
+#first {
+    background-color: skyblue;
+}
+
+#second {
+    margin-left: 25%;
+    background-color: teal;
+}
+
+#third {
+    margin-left: 50%;
+    background-color: tomato;
+}
+
+#fourth {
+    margin-left: 75%;
+    background-color: violet;
+}

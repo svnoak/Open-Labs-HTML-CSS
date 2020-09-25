@@ -1,0 +1,22 @@
+#small {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    border-top: 5px solid navy;
+}
+
+#medium {
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+    border-left: 10px solid indianred;
+    border-right: 10px solid indianred;
+
+}
+
+#large {
+    height: 300px;
+    width: 300px;
+    background-color: lightpink;
+    border-bottom: 15px solid lightcoral;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: ghostwhite;
+    width: 100vw;
+    border-bottom: 1px solid gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10vh 0 10vh 0;
+}
+
+#text {
+
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    margin: 5vh 15vw;
+    line-height: 1.4;
+}

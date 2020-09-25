@@ -1,0 +1,8 @@
+#target {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 50px solid skyblue;
+    margin: 0 auto;
+}
