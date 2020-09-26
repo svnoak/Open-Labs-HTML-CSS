@@ -1,3 +1,18 @@
+/*
+Varje ID har en höjd (height), bredd (width), background-color (bakgrundsfärg) och en rahm (border).
+
+Lättare att använda "border-top", "border-left", "border-right", "border-bottom" för att specifiera vilken border man vill använda.
+Det går även att lägga till border genom enbart "border" och sedan specifiera utifrån det.
+
+Info: 
+height - https://www.w3schools.com/cssref/pr_dim_height.asp
+width - https://www.w3schools.com/cssref/pr_dim_width.asp
+background-color - https://www.w3schools.com/cssref/pr_background-color.asp
+border - https://www.w3schools.com/cssref/pr_border.asp
+
+
+*/
+
 #small {
     height: 100px;
     width: 100px;
