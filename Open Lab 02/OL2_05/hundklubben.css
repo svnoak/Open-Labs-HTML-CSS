@@ -1,6 +1,24 @@
-body {
-    min-width: 200px;
-}
+/*
+
+Margin:
+Det går att anväda 1, 2, 3 eller 4 siffror för att specifiera margin.
+margin: 10px; 
+margin: 10px 15px; 
+margin: 10px 15px 20px;
+margin: 10px 15px 20px 25px;
+
+margin: 0 auto; innebär då att margin uppe och nere = 0, medans margin till höger och vänster håller sig lika stora och därför centreras elementet.
+margin: auto 0; funkar inte på samma sätt, då en div alltid bara är så stor som elementet och därför blir inte elementet centrerat på skärmen.
+
+Mer om margin finns här: https://www.w3schools.com/cssref/pr_margin.asp
+
+overflow: hidden; innebär att vi avaktiverar scrollandet på sidan när elementet hamnar utanför rutan.
+Mer info om overflow: https://www.w3schools.com/cssref/pr_pos_overflow.asp
+
+
+Max-width innebär egentligen bara att man sätter en maximal bredd på ett element.
+Mer info här: https://www.w3schools.com/cssref/pr_dim_max-width.asp
+*/
 
 #sign {
     background-color: steelblue;
@@ -11,6 +29,11 @@ body {
 	height: 100px;
 	overflow: hidden;
 }
+
+/*
+Padding innebär att själva elementet blir större, medans margin innebär att ytan utanför elementet förstoras.
+Mer info om padding finns här: https://www.w3schools.com/cssref/pr_padding.asp
+*/
 
 #heading {
     font-family: Arial, Helvetica, sans-serif;
