@@ -5,14 +5,53 @@ body {
     line-height: 1.4;
 }
 
+
+/* 
+Länk till alla typer av CSS Selector referenser finns här: https://www.w3schools.com/cssref/css_selectors.asp
+
+
+    # är CSS selectorn för ID i CSS och sätts framför namnet som du använt i ditt HTML dokument.
+    ID är alltid unikt och används enbart på ett ställe i HTML dokument, vill du använda samma CSS kod på flera ställen, använd en CSS-klass istället.
+    Mer information kring ID inom HTML finns här: https://www.w3schools.com/htmL/html_id.asp
+
+    . är CSS selectorn för klass i CSS och sätts framför namnet som du använt i ditt HTML dokument.
+    Klasser kan användas var du än vill i ditt HTML dokument.
+    Mer information kring klasser inom HTML finns här: https://www.w3schools.com/html/html_classes.asp
+
+Ett sätt att komma ihåg skillnad på ID och Klass:
+
+ID är unikt. Samma som ditt ID kort identifierar dig som unik person.
+En klass består av många olika människor, oavsett om det är en skolklass eller en samhällsklass, så finner du många personer inom en klass.
+*/
+
+/*
+
+font-family: typsnitt du vill använda. Är hierarkiskt ordnat från vänster till höger (vänster först, höger sist).
+Webbläsaren kommer alltid att gå igenom font-family och ladda typsnittet längst till vänster, om den ej hittar det gå vidare till nästa osv.
+Mer information om font-family finner du här: https://www.w3schools.com/cssref/pr_font_font-family.asp
+
+*/
+
 #headline {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+
+/*
+font-weight: vikt/tjocklek du vill använda i typsnittet. Du kan antingen använda "bold", "bolder", "light", "lighter" eller i antal pixlar (ju högre desto tjockare).
+Mer info här: https://www.w3schools.com/cssref/pr_font_weight.asp
+
+*/
 #introduction {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
+
+/*
+font-size: storlek på typsnittet du använder. Ju större pixlar, just större skrift.
+Du kan använda pixlar, men rekommenderat är att använda em eller rem.
+Mer info kan du hitta här: https://www.w3schools.com/cssref/pr_font_font-size.asp
+*/
 
 #section-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
