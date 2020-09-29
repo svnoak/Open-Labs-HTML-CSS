@@ -1,7 +1,15 @@
+/*
+Sätter margin och min-height för alla div:ar, det går även att sätta klasser på alla div:ar om man vill.
+*/
+
 div {
     margin: 5px;
     min-height: 10px;
 }
+
+/*
+Har satt en id på de innersta lådorna för att de är unika i sin margin.
+*/
 
 #box-inner-top {
     margin-bottom: 0px;
@@ -15,6 +23,10 @@ div {
 #box-inner-bottom {
     margin-top: 0px;
 }
+
+/*
+Satt färg för varje klass här för att enkelt kunna tilldela.
+*/
 
 .blue {
     border: 5px solid blue;
