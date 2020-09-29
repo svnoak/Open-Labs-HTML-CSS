@@ -1,3 +1,11 @@
+/*
+border-radius 100% gör alltid div:en rund.
+border-width (eller border) anpassar sig efter div:ens form.
+Läs mer här:
+https://www.w3schools.com/CSSref/css3_pr_border-radius.asp
+https://www.w3schools.com/cssref/pr_border.asp
+*/
+
 #target {
     background-color: red;
     height: 100px;
