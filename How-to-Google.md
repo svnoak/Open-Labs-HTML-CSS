@@ -5,7 +5,7 @@ Här kommer en liten verktygslåda med saker att tänka på när man googlar.
 
 > Skillnaden mellan en bra och dålig programmerare är att en bra programmerare googlar
 
-Personligen använder jag google mer nu, efter att jag började med HTML för ca 10 år sen än vad jag gjorde i början.<br>
+Personligen använder jag google mer nu, efter att jag började med HTML för ca 10 år sen, än vad jag gjorde i början.<br>
 Dels för att jag har glömt allt jag kunde då, men också för att internet förändras snabbt som fan.
 
 ### 1. När får du googla saker?
