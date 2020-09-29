@@ -1,6 +1,8 @@
 #wrapper {
     /* Ange automatisk marginal åt höger och vänster, upp och ner: 50px */
     /* Ange en maxbredd på 1000px */
+
+    /* Har även laggt till lite padding och en grå brakgrund */
     text-align: center;
     margin: 50px auto;
     padding: 10px;
@@ -17,6 +19,7 @@
     width: 400px;
     border: 2px solid black;
 }
+
 #dog-one {
     /* Inkludera bilden dog_01 och få den att fylla rutan (som i exempelbilden) */
     background-image: url(images/dog_01.jpg);
@@ -28,7 +31,7 @@
     /* Inkludera bilden dog_02 och få den att fylla rutan (som i exempelbilden) */
     background-image: url(images/dog_02.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; /* Kollar man noga ser man att den vänstra hunden behöver centreras.*/
 }
 
 p {
