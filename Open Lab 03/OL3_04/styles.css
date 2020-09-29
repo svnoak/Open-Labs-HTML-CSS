@@ -3,25 +3,25 @@ body {
 }
 
 #heading {
-    color: blue;
+    color: #0000ff;
 }
 
 .date {
-    color: gray;
+    color: #808080;
 }
 
 .question {
-    color: maroon;
+    color: #800000;
 }
 
 #introduction {
-    color: teal;
+    color: rgb(0, 128, 128);
 }
 
 h2 {
-    color: tomato;
+    color: rgb(255, 99, 71);
 }
 
 p {
-    color: olive;
+    color: rgb(128, 128, 0);
 }

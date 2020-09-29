@@ -2,6 +2,10 @@
     /* Ange automatisk marginal åt höger och vänster, upp och ner: 50px */
     /* Ange en maxbredd på 1000px */
     text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 1000px;
+    background-color: rgba(0,0,0,0.05);
 }
 
 #dog-one,
@@ -9,18 +13,28 @@
     /* Ange bredd till 400px och höjd till 381px */
     /* Lägg till en kantlinje på 2px som är svart */
     display: inline-block;
+    height: 381px;
+    width: 400px;
+    border: 2px solid black;
 }
 #dog-one {
     /* Inkludera bilden dog_01 och få den att fylla rutan (som i exempelbilden) */
+    background-image: url(images/dog_01.jpg);
+    background-size: cover;
+
 }
 
 #dog-two {
     /* Inkludera bilden dog_02 och få den att fylla rutan (som i exempelbilden) */
+    background-image: url(images/dog_02.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 p {
     margin: 0;
     padding: 20px;
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
     /* Lägg till en bakgrundsfärg som har transparens på 50% */
 }

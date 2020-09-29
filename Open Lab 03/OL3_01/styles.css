@@ -1,3 +1,9 @@
+/*
+Behövs väll inte supermycket förklaring?
+Kolla vad som är samma och lägg ihop dem med ett , 
+
+*/
+
 #wrapper {
     margin: 50px auto;
     padding: 20px;
@@ -20,35 +26,17 @@ img {
     color: #000000;
 }
 
-#history {
-    font-family: Helvetica;
-    color: #3a3a3a;
-}
-
-.history-paragraph {
+.history-paragraph,
+.usage-paragraph,
+.health-paragraph
+ {
     font-family: Georgia;
     color: #3a3a3a;
     line-height: 1.4;
 }
-
-#usage {
-    font-family: Helvetica;
-    color: #3a3a3a;
-}
-
-.usage-paragraph {
-    font-family: Georgia;
-    color: #3a3a3a;
-    line-height: 1.4;
-}
-
+#history,
+#usage,
 #health {
     font-family: Helvetica;
     color: #3a3a3a;
-}
-
-.health-paragraph {
-    font-family: Georgia;
-    color: #3a3a3a;
-    line-height: 1.4;
 }

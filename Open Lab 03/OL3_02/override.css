@@ -1,0 +1,23 @@
+h1#heading {
+    color: rgba(0,0,0,1);
+}
+
+p.date {
+    color: rgba(0,0,0,0.9);
+}
+
+p.question {
+    color: rgba(0,0,0,0.7);
+}
+
+p#introduction {
+    color: rgba(0,0,0,0.5);
+}
+
+h2.subtitle {
+    color:  rgba(0,0,0,0.3);
+}
+
+p.content {
+    color:  rgba(0,0,0,0.2);
+}
