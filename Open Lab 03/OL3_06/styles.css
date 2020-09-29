@@ -1,0 +1,26 @@
+#wrapper {
+    /* Ange automatisk marginal åt höger och vänster, upp och ner: 50px */
+    /* Ange en maxbredd på 1000px */
+    text-align: center;
+}
+
+#dog-one,
+#dog-two {
+    /* Ange bredd till 400px och höjd till 381px */
+    /* Lägg till en kantlinje på 2px som är svart */
+    display: inline-block;
+}
+#dog-one {
+    /* Inkludera bilden dog_01 och få den att fylla rutan (som i exempelbilden) */
+}
+
+#dog-two {
+    /* Inkludera bilden dog_02 och få den att fylla rutan (som i exempelbilden) */
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    /* Lägg till en bakgrundsfärg som har transparens på 50% */
+}

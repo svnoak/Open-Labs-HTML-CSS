@@ -1,0 +1,27 @@
+body {
+    line-height: 1.4;
+}
+
+#heading {
+    color: blue;
+}
+
+.date {
+    color: gray;
+}
+
+.question {
+    color: maroon;
+}
+
+#introduction {
+    color: teal;
+}
+
+h2 {
+    color: tomato;
+}
+
+p {
+    color: olive;
+}
