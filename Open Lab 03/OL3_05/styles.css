@@ -1,3 +1,10 @@
+/*
+Använd background-size: cover; för att få med hunden på hela skärmen hela tiden.
+Använder du background-size: contain; istället kommer bilden alltid stanna innanför ramen, även om den måste lägga till vita/svarta kanter.
+mer info här: https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+*/
+
 body {
     height: 100vh;
     width: 100vw;
