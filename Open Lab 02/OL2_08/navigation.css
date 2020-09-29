@@ -2,6 +2,8 @@
 Använd display:inline-block för att få alla element "i linje".
 Styla sedan efter bevåg.
 Läs mer om inline-block här: https://www.w3schools.com/css/css_inline-block.asp
+
+Sedan sätter jag en border-bottom.
 */
 
 div {
