@@ -6,11 +6,11 @@ Läs mer om inline-block här: https://www.w3schools.com/css/css_inline-block.as
 Sedan sätter jag en border-bottom.
 */
 
-div {
+#navigation {
     display: inline-block;
     border-bottom: 1px solid black;
     height: 60px;
-    width: 98vw;
+    width: 98vw; /* Skulle jag satt denna på 100vw så kan det hända att bredden blir något större än skärmen och då får man en scrollbar */
     margin-top: 10px;
 }
 
@@ -22,8 +22,6 @@ rem sätter storleken relativt till "root element" och används (tillsammans med
 Mer om line-height finns här: https://www.w3schools.com/cssref/pr_dim_line-height.asp
 
 Mer om CSS storleksenheter här: https://www.w3schools.com/cssref/css_units.asp
-
-
 */
 .link {
     line-height: 2.5rem;
