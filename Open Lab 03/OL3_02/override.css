@@ -1,3 +1,12 @@
+/*
+0 0 0 0 betyder 0 på varje färg och skapar basically svart.
+
+%-enheterna anges i decimal, dvs 1 = 100% - 0,5 = 50% osv
+
+du kan bara lägga till klasser och id bakom ett element. Se nedan.
+*/
+
+
 h1#heading {
     color: rgba(0,0,0,1);
 }
