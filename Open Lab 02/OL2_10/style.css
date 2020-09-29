@@ -1,11 +1,27 @@
+/*
+Sätter margin på body på 0, annars får vi en liten marginal längst till vänster och uppe.
+*/
 body {
     margin: 0;
 }
+
+/*
+vh = viewheight, vw = viewwidth
+
+Sätter varje div på 25vh (25% av skärmens höjd) och 25vw (25% av skärmens bredd).
+Skulle vi anväda % skulle lådorna inte synas överhuvudtaget då div anpassar sig utifrån innehållets storlek, och det finns inget innehåll (dvs element nestade i div:arna).
+*/
 
 div {
     height: 25vh;
     width: 25vw;
 }
+
+/*
+Här kan vi använda % för att body (som är ett element i sig) anpassar sin storlek utifrån sitt innehåll.
+Vi har 4 element / div:ar som alla är 25vh höga och 25vw breda.
+Vi kan sätta 25% margin som utgår ifrån body bredden och därför kan vi använda %.
+*/
 
 #first {
     background-color: skyblue;
