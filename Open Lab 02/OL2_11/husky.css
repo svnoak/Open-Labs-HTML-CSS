@@ -1,12 +1,27 @@
+/*
+Sätter margin på 0 för att slippa marginaler vänster och uppe.
+*/
+
 body {
     margin: 0;
 }
+
+/*
+Sätter header på 100vw (100% av skärmens bredd)
+Sätter en liten border-bottom på 1px solid.
+*/
 
 #header {
     background-color: ghostwhite;
     width: 100vw;
     border-bottom: 1px solid gainsboro;
 }
+
+/*
+Använder igen rem och vh istället för px och % för att det är mer absoluta enheter i relation till enheten som elementen visas på.
+font-size:1.5rem; innebär att texten är 1.5x större än vad texten är i html-elementet (root element).
+text-align: center; gör att texten centreras.
+*/
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,11 +31,19 @@ h1 {
     padding: 10vh 0 10vh 0;
 }
 
-#text {
+/*
+Maximal bredd på 600px
+margin: 0 auto; för att slopa marginaler uppe och nere och centrera utifrån samma storlek på marginaler höger och vänster.
+*/
 
+#text {
     max-width: 600px;
     margin: 0 auto;
 }
+
+/*
+Sätter maringal som känns lite najs och en line-height som också känns lite najs.
+*/
 
 p {
     font-family: Helvetica, Arial, sans-serif;
