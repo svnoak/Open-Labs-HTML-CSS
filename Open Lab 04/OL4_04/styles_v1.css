@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 1%;
+    height: 20vh;
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.4em;
+    font-weight: 550;
+}
+
+a {
+    font-size: 1.4em;
+    font-weight: 550;
+}
+
+#lemon {
+    background-color:yellow;
+}
+
+#apple {
+    background-color: coral;
+}
+
+#kiwi {
+    background-color: darkgreen;
+}
+
+#strawberry {
+    background-color: red;
+}
