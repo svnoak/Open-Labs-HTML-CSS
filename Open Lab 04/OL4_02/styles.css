@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#navigation {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 50vw;
+}
+
+.item {
+    display: flex;
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+#hendrix {
+    background-image: url(images/hendrix.jpg);
+}
+
+#joplin {
+    background-image: url(images/joplin.png);
+}
+
+#simone {
+    background-image: url(images/simone.jpg);
+}
