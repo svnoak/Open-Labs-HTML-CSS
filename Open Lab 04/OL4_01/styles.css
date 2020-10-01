@@ -1,0 +1,49 @@
+html, body {
+    background-color: darksalmon;
+    height: 97vh;
+}
+
+#container {
+    height: 100%;
+    width: 500px;
+    display: table;
+    margin: 0 auto;
+}
+
+#content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.image {
+    background-image: url(images/plant.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+ol{
+    background-color: whitesmoke;
+    margin-top: 0;
+    padding: 10px 50px;
+    border-radius: 0 0 15px 15px;
+}
+
+li {
+    list-style-type: upper-roman;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
