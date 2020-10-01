@@ -1,19 +1,9 @@
-html, body {
-    background-color: darksalmon;
+body {
+    display: flex;
     height: 97vh;
-}
-
-#container {
-    height: 100%;
-    width: 500px;
-    display: table;
-    margin: 0 auto;
-}
-
-#content {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    background-color: darksalmon;
 }
 
 .image {
