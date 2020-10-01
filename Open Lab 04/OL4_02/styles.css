@@ -9,13 +9,26 @@ body {
     justify-content: center;
     flex-grow: 1;
     width: 50vw;
+    margin: 3% 10%;;
 }
 
 .item {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 150px;
-    width: 500px;
-    border: 2px solid black;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    background-position: top;
+    background-size: cover;
+}
+
+.item:hover {
+    color: skyblue;
 }
 
 #hendrix {
