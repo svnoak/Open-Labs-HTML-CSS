@@ -1,3 +1,19 @@
+/*
+Istället för direkta länkar till referensmaterial kommer jag skriva vilka ord jag använda när jag söker efter lösningarna på nätet.
+
+En referens för hur man Googlar på rätt sätt kan du hitta i "How-To-Google.md" på www.github.com/kimpfimp/Open-Labs
+
+
+Mina sökningar för denna uppgiften var:
+
+"Flexbox vertical alignment"
+"Flexbox how to vertical align"
+"Flexbox center div in body"
+"CSS Roman Numeral in list"
+
+
+*/
+
 body {
     display: flex;
     height: 97vh;
@@ -5,7 +21,7 @@ body {
     justify-content: center;
     background-color: darksalmon;
 }
-z
+
 .image {
     background-image: url(images/plant.jpg);
     background-size: cover;
