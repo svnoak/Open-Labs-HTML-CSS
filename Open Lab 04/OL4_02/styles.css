@@ -1,3 +1,16 @@
+/*
+Istället för direkta länkar till referensmaterial kommer jag skriva vilka ord jag använda när jag söker efter lösningarna på nätet.
+
+En referens för hur man Googlar på rätt sätt kan du hitta i "How-To-Google.md" på www.github.com/kimpfimp/Open-Labs
+
+
+Mina sökningar för denna uppgiften var:
+
+"flexbox equal size columns"
+"background-image css"
+"Flexbox how to vertical align" <-- ja, jag fick google detta, igen
+*/
+
 body {
     display: flex;
     justify-content: center;
