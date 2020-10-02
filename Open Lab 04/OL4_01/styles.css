@@ -16,17 +16,23 @@ Mina sökningar för denna uppgiften var:
 
 body {
     display: flex;
-    height: 97vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: darksalmon;
+    overflow: hidden;
+}
+
+.content {
+    width: 500px;
 }
 
 .image {
     background-image: url(images/plant.jpg);
     background-size: cover;
     background-position: top;
-    width: 500px;
+    position: relative;
+    width: 100%;
     height: 250px;
     border-radius: 20px 100px;
     margin: 0 auto;
