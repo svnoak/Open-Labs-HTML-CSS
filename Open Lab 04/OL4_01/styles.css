@@ -23,7 +23,7 @@ body {
     overflow: hidden;
 }
 
-.content {
+#content {
     width: 500px;
 }
 
