@@ -44,6 +44,10 @@ body {
     color: skyblue;
 }
 
+.item:visited {
+    color: white;
+}
+
 #hendrix {
     background-image: url(images/hendrix.jpg);
 }
