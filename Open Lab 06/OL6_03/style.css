@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    height: 100vh;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    height: 20vh;
+    font-size: 1.5em;
+}
+
+#pumpkins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.icon {
+    padding: 2% 0;
+}
+
+.image {
+    padding: 2% 0;
+    width: 100vw;
+}
+
+@media (max-width: 500px) {
+    .icon {
+        display: none;
+    }
+
+    .image {
+        padding: 10% 0;
+    }
+}
+
