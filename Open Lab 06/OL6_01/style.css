@@ -1,0 +1,33 @@
+body {
+display: flex;
+justify-content: center;
+}
+
+#navigation,
+.item {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+#navigation {
+    height: 150px;
+}
+
+.item {
+    align-items: center;
+    background-color: plum;
+    color: black;
+    border: 1px solid black;
+}
+
+.item:hover {
+    background-color: purple;
+}
+
+@media (max-width: 400px) {
+    #navigation {
+        flex-direction: column;
+        height: 90vh;
+    }
+}
