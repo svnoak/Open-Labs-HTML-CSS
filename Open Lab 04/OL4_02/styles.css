@@ -14,6 +14,7 @@ Mina sökningar för denna uppgiften var:
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #navigation {
@@ -31,7 +32,6 @@ body {
     align-items: center;
     height: 150px;
     width: 100%;
-    font-family: 'Oswald', sans-serif;
     font-size: 50px;
     color: white;
     text-decoration: none;
