@@ -1,0 +1,30 @@
+body {
+  margin: 5vh 0px;
+  font-family: 'Henny Penny';  
+  font-size: 1.5vh;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 12vh;
+}
+
+main > div {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > main > div:nth-child(even) {
+    background-color: hotpink;
+  }
+  
+main > div:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+
