@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid black;
+    width: 60vw;
+    height: 60vw;
+}
+
+div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 3vh;
+}
+
+div:nth-child(5n) {
+    border-right: none;
+}
+
+div:nth-child(n+21) {
+    border-bottom: none;
+}
+
+div:nth-child(even) {
+    background-color: pink;
+}
+
+div:nth-child(odd) {
+    background-color: gold;
+}
+
+div:hover {
+    background-color: black;
+}
+
+div:active {
+    background-color: white;
+}
+
+main:active {
+    border-width: 5vw;
+}
+
+div:nth-child(13):active {
+    background-color: red;
+}

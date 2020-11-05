@@ -18,11 +18,13 @@ main > div {
   align-items: center;
 }
 
+main > div:nth-child(even) {
+  background-color: hotpink;
+}
+
+
+/*Flytta ner denna, då samma specificy som main > div:nth-child(even)*/
 main > div:hover {
   cursor: pointer;
   background-color: black;
-}
-
-main > div:nth-child(even) {
-  background-color: hotpink;
 }

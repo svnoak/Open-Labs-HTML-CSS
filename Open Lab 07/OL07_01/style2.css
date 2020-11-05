@@ -22,7 +22,9 @@ body > main > div:nth-child(even) {
     background-color: hotpink;
   }
   
-main > div:hover {
+/*Lägg till body här eller ta bort body i den ovanför för att jämna ut specificy */
+
+body > main > div:hover {
   cursor: pointer;
   background-color: black;
 }
