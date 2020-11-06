@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+body > div a {
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+    width: 24%;
+}
+
+body > div a > span {
+    display: none;
+}
+
+body > div a:first-child {
+    background-image: url(images/las_meninas.jpg);
+}
+
+body > div a:nth-child(2) {
+    background-image: url(images/mona_lisa.jpg);
+}
+
+body > div a:nth-child(3) {
+    background-image: url(images/the_kiss.jpg);
+}
+
+body > div a:last-child {
+    background-image: url(images/parnassus.jpg);
+}
+
+body div:nth-child(2) {
+    display: none;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 10% 5%;
+    background-color: beige;
+}
+
+body div:nth-child(2) span {
+    color: red;
+    font-weight: bold;
+}
+
+body > div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: lightblue;
+    font-family: sans-serif;
+    padding: 5%;
+}
+
+h1 {
+    margin: -4% 0 1% 0;
+}
+
+@media (max-width: 500px) {
+    body > div:first-child  {
+        flex-direction: column;
+        height: 50vh;
+    }
+    
+    body > div a {
+        width: 100%;
+        height: 24%;
+    }
+
+    body > div a span {
+        display: flex;
+    }
+
+    body div:nth-child(2) {
+        display: block;
+    }
+}
