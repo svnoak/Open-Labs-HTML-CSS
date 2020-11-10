@@ -30,7 +30,6 @@ body > div div {
     align-items: center;
 }
 
-
 body > div div:first-child{
     grid-row: 2;
     grid-column: 1;
@@ -67,9 +66,7 @@ body > div div:nth-child(odd),
 body > div div:nth-child(even) {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-
 }
-
 
 span {
     grid-row: 1 / 1;
