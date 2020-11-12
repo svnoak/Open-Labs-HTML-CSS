@@ -1,3 +1,8 @@
+/*Denna är inte helt klar. 
+Bållarna ska hålla sig kvar uppe och nere på skärmen, men de gör inte det av någon anledning.
+Behövs göras något med en till container kanske? Lite oklart....
+*/
+
 :root {
     --body-margin: 20px;
     --sticky-top: 8vh;
