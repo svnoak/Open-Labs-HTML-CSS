@@ -14,5 +14,3 @@ Notice that:
 Try to find out on your own how to make a gradient background.
 If you have trouble with that, just forget about it or use this:
 background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,43,255,1) 100%);
-
-
