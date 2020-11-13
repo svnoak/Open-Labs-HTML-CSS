@@ -15,6 +15,9 @@
   --cBase1: khaki;
   --cBase2: bisque;
   --cAccent: indianred;
+
+  --star-big: 200px;
+  --star-small: 180px;
 }
 
 html {
@@ -89,4 +92,71 @@ body > div:first-of-type{
 
 img {
   width: 100%;
+}
+
+/* Jag utgår ifrån att Erik har gjort en bild med en star i Photoshop eller liknande och sedan satt in den som en bild.
+Men för att den inte finns med så har jag gjort en stjärna av fyrkanter i CSS istället.
+
+Detta leder dock till att storleken på diven blir extremt knasig och det behöver testas mycket för att komma fram till rätt lösning.
+Men principen är samma. Men kanske enklare att bara använda en bild *shrug*
+*/
+
+#star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  /*right: -105px;*/
+  right: calc(((100vw - 1080px) / 2) - (485px / 2));
+  top: 10%;
+}
+
+#outer-star {
+  background: blue;
+  width: var(--star-big);
+  height: var(--star-big);
+  /*position: relative;
+  text-align: center;*/
+  transform: rotate(23deg);
+}
+#outer-star:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--star-big);
+  width: var(--star-big);
+  background: blue;
+  transform: rotate(135deg);
+}
+
+#inner-star {
+  background: skyblue;
+  width: var(--star-small);
+  height: var(--star-small);
+  position: relative;
+  top: 5%;
+  left: 5%;
+  transform: rotate(45deg);
+}
+
+#inner-star:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--star-small);
+  width: var(--star-small);
+  background: skyblue;
+  transform: rotate(135deg);
+}
+
+#star-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -165px;
+  font-size: 20px;
 }
