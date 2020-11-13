@@ -8,11 +8,65 @@
   --szS: calc(.8 * var(--basicSize));
   --szXS: calc(.5 * var(--basicSize));   
   
-  --hHeader: calc(5 * var(--szXL));
+  --hHeader: calc(2 * var(--szXL));
   --marginBody: var(--szM);
 
   /* Colors */
   --cBase1: khaki;
   --cBase2: bisque;
   --cAccent: indianred;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+}
+
+body {
+  margin: var(--marginBody);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--szM);
+}
+
+header div{
+  background-image: url();
+  height: 350px;
+  background-color: lightgrey;
+  font-family: "Monoton";
+  font-size: var(--hHeader);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: var(--cBase1);
+  height: 50px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cAccent);
+  font-size: var(--szM);
+}
+
+a:hover {
+  background-color: var(--cAccent);
+  color: var(--cBase1);
+}
+
+body div:first-of-type{
+  margin-top: 50px;
+}
+
+img {
+  width: 100%;
 }
