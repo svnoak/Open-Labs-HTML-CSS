@@ -1,0 +1,18 @@
+:root {
+  --basicSize: 16px;
+
+  /* Sizes */
+  --szXL: calc(3.5 * var(--basicSize));
+  --szL: calc(2 * var(--basicSize));
+  --szM: calc(1 * var(--basicSize));
+  --szS: calc(.8 * var(--basicSize));
+  --szXS: calc(.5 * var(--basicSize));   
+  
+  --hHeader: calc(5 * var(--szXL));
+  --marginBody: var(--szM);
+
+  /* Colors */
+  --cBase1: khaki;
+  --cBase2: bisque;
+  --cAccent: indianred;
+}
