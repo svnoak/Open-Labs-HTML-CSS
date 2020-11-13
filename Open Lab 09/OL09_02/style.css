@@ -29,6 +29,10 @@ body {
   font-size: var(--szM);
 }
 
+header {
+  height: 350px;
+}
+
 header div:first-child{
   background-image: url();
   height: 350px;
@@ -68,7 +72,7 @@ a:hover {
   color: var(--cBase1);
 }
 
-body div:first-of-type{
+body > div:first-of-type{
   margin-top: 50px;
 }
 
