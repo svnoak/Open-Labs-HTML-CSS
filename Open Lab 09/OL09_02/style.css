@@ -20,13 +20,20 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 body {
   margin: var(--marginBody);
-  display: flex;
   flex-direction: column;
   font-size: var(--szM);
+}
+
+header,
+nav,
+body > div:first-of-type {
+  max-width: 1080px;
 }
 
 header {
