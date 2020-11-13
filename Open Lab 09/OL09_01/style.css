@@ -19,7 +19,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 50px;
+  scroll-padding: 100px;
 }
 
 body {
@@ -65,6 +65,10 @@ a:hover {
 
 body div:first-of-type{
   margin-top: 50px;
+}
+
+#eftermale ~ div {
+  height: 90vh;
 }
 
 img {
