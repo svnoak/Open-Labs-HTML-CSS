@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+}
+
+.box {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    transition: 0.2s;
+}
+
+.dark {
+    color: whitesmoke;
+}
+
+.light {
+    color: black;
+}
+
+.box:hover {
+    background-color: whitesmoke
+}
