@@ -11,6 +11,16 @@ body {
     overflow: hidden;
 }
 
+main > svg {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 75vh;
+}
+
 path:hover {
     fill: blue;
 }
