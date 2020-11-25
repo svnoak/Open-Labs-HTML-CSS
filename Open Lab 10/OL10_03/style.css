@@ -1,0 +1,34 @@
+* {
+    margn: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    height: 80vh;
+    width: auto;
+}
+
+path {
+    stroke: grey;
+    transition: 0.5s ease;
+}
+
+path:first-of-type:hover {
+    stroke: pink;
+}
+
+path:nth-of-type(2):hover {
+    stroke: skyblue;
+}
+
+path:nth-of-type(3):hover {
+    stroke: limegreen;
+}
