@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    border-radius: 100%;
+    transition: 0.2s ease;
+    border: 1px solid black;
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    background-color: whitesmoke;
+}
+
+.largest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.large,
+.medium,
+.small,
+.smallest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large {
+    height: 200px;
+    width: 200px;
+}
+
+.medium {
+    height: 150px;
+    width: 150px;
+}
+
+.small {
+    height: 100px;
+    width: 100px;
+}
+
+.smallest {
+    height: 50px;
+    width: 50px;
+}
+
+.invert:hover .dark {
+    background-color: whitesmoke;
+}
+
+.invert:hover .light {
+    background-color: black;
+}
